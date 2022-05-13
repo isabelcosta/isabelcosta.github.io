@@ -1,9 +1,8 @@
 ---
 title: 📷 Diverse Stock Photos
-date: '2021-06-11'
+type: note
 tags:
   - misc
-note: true
 ---
 
 Gosh, I saw an amazing talk at [CONNECT REIMAGINE](https://connectreimagine.womenwhocode.dev/) by [Merary Alvarado about Accessability](https://www.youtube.com/watch?v=yGkPh2Gg7VM) today, and this prompted me to create this post.

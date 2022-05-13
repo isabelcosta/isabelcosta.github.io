@@ -1,0 +1,15 @@
+<h2>{{ i18n "posts.title" }}</h2>
+<br>
+<ul id="posts">
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
+
+<h2>Notes</h2>
+<br>
+<ul id="posts">
+{{- range where site.RegularPages "Type" "in" "note" }}
+    {{- partial "li_note.html" . -}}
+{{- end }}
+</ul>

@@ -1,8 +1,6 @@
 ---
 title: 🎧 Podcasts I listen to
-date: '2020-07-25'
-last_update: '2021-04-30'
-note: true
+type: note
 tags:
   - misc
 ---

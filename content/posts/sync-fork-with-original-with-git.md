@@ -19,12 +19,12 @@ To use as an example, I forked [anitab-org/documentation](https://github.com/ani
 
 First, **check what remote URLs your project has set up** with:
 
-```
+```bash
 git remote -v
 ```
 
 Here the `origin` configuration will have the URL where your forked project is on GitHub (notice that my `isabelcosta` account username is there). I am also inside the root directory of the local clone of my forked repository.
-```
+```bash
 ~/dev/documentation > git remote -v
 origin	git@github.com:isabelcosta/documentation.git (fetch)
 origin	git@github.com:isabelcosta/documentation.git (push)
@@ -32,17 +32,17 @@ origin	git@github.com:isabelcosta/documentation.git (push)
 
 Now you can **add the new remote repository link to your remotes**. The `upstream` keyword is an alias for the original repository remote URL (replace `<url of original repository>` with this URL). You can pick another alias if you prefer.
 
-```
+```bash
 git remote add upstream <url of original repository>
 ```
 
 Notice that in this case, the link is pointing to `anitab-org` account - where the repository was originally forked from):
-```
+```bash
 ~/dev/documentation > git remote add upstream git@github.com:anitab-org/documentation.git
 ```
 
 To **confirm the remote repositories you have set up**, the new `upstream` repository configuration should be there.
-```
+```bash
 ~/dev/documentation > git remote -v
 origin	git@github.com:isabelcosta/documentation.git (fetch)
 origin	git@github.com:isabelcosta/documentation.git (push)
@@ -51,7 +51,7 @@ upstream	git@github.com:anitab-org/documentation.git (push)
 ```
 
 With this setup, you can now **sync your repository locally** using pull/fetch code from the original repository. Here’s an example where I am pulling code from the original repository into my fork’s `master` branch:
-```
+```bash
 ~/dev/documentation > git pull upstream master
 From github.com:anitab-org/documentation
  * branch            master     -> FETCH_HEAD
@@ -60,7 +60,7 @@ Already up to date.
 ```
 
 After updating my local branch, I usually also **update the fork on GitHub.** I push the new commits pulled from `upstream` to my `origin` forked repository (using the same `master` branch):
-```
+```bash
 ~/dev/documentation > git push origin master
 Everything up-to-date
 ```

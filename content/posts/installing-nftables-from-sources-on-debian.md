@@ -26,31 +26,31 @@ First, I tried to install _libmnl_ package provided by on Debian, with `aptitude
 
 To install _libnftnl_ userspace library, the _nftables_ wiki page suggests these commands:
 
-```
-# git clone git://git.netfilter.org/libnftnl
-# cd libnftnl
-# sh autogen.sh
-# ./configure
-# make
-# make install
+```bash
+git clone git://git.netfilter.org/libnftnl
+cd libnftnl
+sh autogen.sh
+./configure
+make
+make install
 ```
 
 While running the commands, I get the first error (in the third command):
 
-```
+```bash
 root@debian:/home/debian/libnftnl# sh autogen.sh 
 autogen.sh: 3: autogen.sh: autoreconf: not found
 ```
 
 Then I installed the missing packages: _autogen_, _autoreconf_.
 
-```
-# aptitude install autoconf autogen
+```bash
+aptitude install autoconf autogen
 ```
 
 Next, I tried again the `sh autogen.sh` step and got the following error:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# sh autogen.sh 
 configure.ac:28: error: possibly undefined macro: AC_DISABLE_STATIC
       If this token and others are legitimate, please use m4_pattern_allow.
@@ -63,7 +63,7 @@ After some research, I found that I had to install _libtool_ package, with `apti
 
 Then I tried again, and  got this output:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# sh autogen.sh 
 libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `build-aux'.
 libtoolize: copying file `build-aux/ltmain.sh'
@@ -84,7 +84,7 @@ examples/Makefile.am: installing 'build-aux/depcomp'
 
 Finally `autogen.sh` script is working! In this point, I could move forward to the next command: `./configure`. Here’s the output I had:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# ./configure
 checking build system type... x86_64-unknown-linux-gnu
 checking host system type... x86_64-unknown-linux-gnu
@@ -120,13 +120,13 @@ From this output, I noticed that I was missing the _libmnl_ package, which I ins
 
 To install _libmnl_ userspace library, correctly from the sources, I ran these commands:
 
-```
-# git clone git://git.netfilter.org/libmnl
-# cd libmnl
-# sh autogen.sh
-# ./configure
-# make
-# make install
+```bash
+git clone git://git.netfilter.org/libmnl
+cd libmnl
+sh autogen.sh
+./configure
+make
+make install
 ```
 
 With the previous packages I installed, these steps had no errors.
@@ -135,14 +135,14 @@ With the previous packages I installed, these steps had no errors.
 
 Now going back to the installation of _libnftnl_, I tried to run `./configure` again and I still got the same problem. I fixed the problem following the instructions of [this blog post](http://blog.anarey.info/2014/08/pkg_check_moduleslibmnl-libmnl-1-0-0-error/). Here are the steps I followed:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# whereis libmnl
 libmnl: /usr/local/lib/libmnl.so /usr/local/lib/libmnl.la /usr/include/libmnl
 ```
 
 Then I did:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# ldd /usr/local/lib/libmnl.so
  linux-vdso.so.1 (0x00007ffe5212a000)
  libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007efc29faf000)
@@ -153,14 +153,14 @@ The post also suggested that I installed _pkg-config_ with `aptitude install pkg
 
 Also, the above post suggested that I should configure the pkg-config environment path:
 
-```
-# PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
-# export PKG_CONFIG_PATH
+```bash
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+export PKG_CONFIG_PATH
 ```
 
 Then I ran `sh autogen.sh` and `./configure` again. After this I got a much nicer and longer output, like this:
 
-```
+```bash
 root@debian:/home/debian/libnftnl# ./configure
 checking build system type... x86_64-unknown-linux-gnu
 checking host system type... x86_64-unknown-linux-gnu
@@ -189,16 +189,16 @@ without any errors.
 
 Now that _libmnl_ and _libnftnl_ were successfully installed, I tried to install userspace _nft_ command line utility, _nftables_ from the sources, with the following commands:
 
-```
-# git clone git://git.netfilter.org/nftables
-# cd nftables
-# sh autogen.sh
-# ./configure
+```bash
+git clone git://git.netfilter.org/nftables
+cd nftables
+sh autogen.sh
+./configure
 ```
 
 While running the last command, `./configure`, I got an error indicating that I was missing _bison_ package, which the _nftables_ depended on:
 
-```
+```bash
 root@debian:/home/debian/nftables# ./configure
 checking build system type... x86_64-unknown-linux-gnu
 checking host system type... x86_64-unknown-linux-gnu
@@ -215,14 +215,14 @@ Later I got the same message for _flex_ and _docbook2x_ packages. [Note that bot
 
 After this, I got this error message: `configure: error: No suitable version of libreadline found`. To fix this I followed the [steps of this post](https://www.howtoinstall.co/en/debian/jessie/libreadline-dev).
 
-```
-# aptitude update
-# aptitude install libreadline-dev
+```bash
+aptitude update
+aptitude install libreadline-dev
 ```
 
 At this point, I had enough installed to have _nft_ tool running. This is the installation output with no errors:
 
-```
+```bash
 root@debian:/home/debian/nftables# ./configure
 checking build system type... x86_64-unknown-linux-gnu
 checking host system type... x86_64-unknown-linux-gnu
@@ -250,7 +250,7 @@ Then I ran `make` and `make install`, also with no errors.
 
 Finally, I checked if _nftables_ was successfully installed:
 
-```
+```bash
 root@debian:/home/debian/nftables# nft
 nft: no command specified
 root@debian:/home/debian/nftables# nft -v
@@ -267,47 +267,47 @@ After all of this procedure, I had to install this on another virtual machine. I
 - Then I installed all the packages I needed during the first installation, with aptitude install <package-name>. These include _autoconf_, _autogen_, _libtool_, _pkg-config_, _libgmp3-dev_, _bison_, _flex_, _docbook2x_ and _libreadline-dev_. You can check the dependencies of _nftables_ [here](https://packages.debian.org/source/stable/nftables).
 - Next, I configured the path for pkg-config with the following lines:
 
-```
-# PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
-# export PKG_CONFIG_PATH
+```bash
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+export PKG_CONFIG_PATH
 ```
 
 - Then I installed the [_libmnl_](https://www.netfilter.org/projects/libmnl/) library, with the commands previously presented:
 
-```
-# git clone git://git.netfilter.org/libmnl
-# cd libmnl
-# sh autogen.sh
-# ./configure
-# make
-# make install
+```bash
+git clone git://git.netfilter.org/libmnl
+cd libmnl
+sh autogen.sh
+./configure
+make
+make install
 ```
 
 - After that I installed the [_libnftnl_](https://www.netfilter.org/projects/libnftnl/) library, with these commands, also shown previously:
 
-```
-# git clone git://git.netfilter.org/libnftnl
-# cd libnftnl
-# sh autogen.sh
-# ./configure
-# make
-# make install
+```bash
+git clone git://git.netfilter.org/libnftnl
+cd libnftnl
+sh autogen.sh
+./configure
+make
+make install
 ```
 
 - Lastly, I installed [_nftables_](https://www.netfilter.org/projects/nftables/) this way:
 
-```
-# git clone git://git.netfilter.org/nftables
-# cd nftables
-# sh autogen.sh
-# ./configure
-# make
-# make install
+```bash
+git clone git://git.netfilter.org/nftables
+cd nftables
+sh autogen.sh
+./configure
+make
+make install
 ```
 
 - Next, to check if _nftables_ is working, I checked the version with `nft -v`. Surprisingly I got an error I haven’t seen before, that I fixed with `ldconfig` command. If you’re unfamiliar with `ldconfig` you can learn more about it [here](https://linux.die.net/man/8/ldconfig). You can check the sequence of the commands below:
 
-```
+```bash
 root@debian:/home/debian# nft -v
 nft: error while loading shared libraries: libnftnl.so.7: cannot open shared object file: No such file or directory
 root@debian:/home/debian# ldconfig

@@ -1,8 +1,6 @@
 ---
 title: ✍🏾 Blogs that inspire me
-date: '2021-05-01'
-last_update: '2021-05-01'
-note: true
+type: note
 tags:
   - misc
 ---
