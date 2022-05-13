@@ -5,46 +5,10 @@ draft: false
 
 You can see my **open source projects** on [GitHub](https://github.com/isabelcosta) and my **professional experience** on [LinkedIn](https://www.linkedin.com/in/isabelcmdcosta).
 
-- [👐🏾 Volunteer](#heading-volunteer)
-- [👩🏾‍💻 Professional](#heading-professional)
-- [🚧 Projects](#-projects)
-    - [Mentorship System](#mentorship-system)
-    - [PREMIUM (MSc Thesis)](#premium-private-reactive-multipath-communication-middleware-(msc-thesis))
-    - [Personal Website](#personal-website)
-    - [Smart Home Android app](smart-home-android-app)
-    - [Movies Android App](#moviesapp)
-
-## 👐🏾 Volunteer
-
-- **Apr, 2021 - Now:** Instructor/Mentor at [As Raparigas de Codigo](https://raparigasdocodigo.pt/);
-- **Aug, 2021 - Now:** Mentor at [Black Codher](https://blackcodher.com/) bootcamp;
-- **Feb, 2020 - Now:** OS Admin at [AnitaB.org Open Source](https://github.com/anitab-org);
-- **Mar, 2018 - Now:** OS Contributor and Maintainer at [AnitaB.org Open Source](https://github.com/anitab-org);
-- **Sep, 2021:** Speaker at Early Career lounge at [Grace Hopper Celebration (GHC)](https://ghc.anitab.org);
-- **May, 2021:** Panelist on Entry Level/Aspiring Technologist Networking lounge at [vGHC EMEA](https://ghc.anitab.org/ghc-emea-home);
-- **Aug, 2020 - Feb, 2021:** Mentor at [Black Codher](https://blackcodher.com/) bootcamp;
-- **Jul, 2019 - Dec, 2020:** Community Leader for [AnitaB.org London](https://community.anitab.org/) chapter;
-- **Sep, 2020:** [vGHC](https://ghc.anitab.org/) Community Moderator at Networking Sessions; 
-- **Feb, 2020 - Aug, 2020:** [Google Summer of Code](https://summerofcode.withgoogle.com/) admin at AnitaB.org Open Source;
-- **Nov, 2019 - Jan, 2020:** [Google Code-in](https://codein.withgoogle.com/) mentor at Systers Community;
-- **Oct, 2019:** [GHC](https://ghc.anitab.org/) Open Source Day remote mentor;
-- **May, 2019 - June, 2019:** [Hopperx1 London](https://community.anitab.org/event/hopperx1-london/) - Track Committee Co Chair for Open Source;
-- **Sep, 2018:** [GHC](https://ghc.anitab.org/) Open Source Day Systers Representative.
-
-I also do [public speaking](/talks/) and [blogging](/posts/).
-
-## 👩🏾‍💻 Professional
-
-- **Jun, 2020 - Now:** Software Engineer at Globality;
-- **Oct, 2019 - May, 2020:** Software Engineer at GeoPhy;
-- **Dec, 2018 - Oct, 2019:** Full Stack Developer at Impresa;
-- **Apr, 2018 - Ago, 2018:** Google Summer of Code 2018 student with Systers Community;
-- **Feb, 2016 - Apr, 2018:** Android Developer at Innovation Makers;
-- **Jul, 2015 - Sep, 2015:** Software Engineering intern at Uniplaces.
-
-Full professional history on [LinkedIn](https://www.linkedin.com/in/isabelcmdcosta).
-
-## 🚧 Projects
+- [Mentorship System](#mentorship-system)
+- [PREMIUM (MSc Thesis)](#premium-private-reactive-multipath-communication-middleware-(msc-thesis))
+- [Smart Home Android app](smart-home-android-app)
+- [Movies Android App](#moviesapp)
 
 ### Mentorship System
 
@@ -74,18 +38,6 @@ I used the modified versions of these prototypes and implemented new modules to 
 Code is available at [inesc-id/Premium](https://github.com/inesc-id/Premium) on GitHub.
 
 **Tech stack and tools:** C, Java, Python, VirtualBox, Google Cloud, git, GitHub, Linux (Debian)
-
-### Personal Website
-
-Usually, I am currently a [Eleventy](https://www.11ty.dev/) based website for the first time and I am enjoying it so much! I usually use these static code generators to facilitate the development through using Markdown files, without having to do much frontend work. My previous versions (first and second) used [Jekyll](https://jekyllrb.com/) templates.
-
-These are the different versions of my websites until this current one:
-- **1st version:** [Live](http://isabelcosta.github.io/first-personal-website) and on [GitHub](http://github.com/isabelcosta/first-personal-website);
-- **2nd version:** [Live](http://isabelcosta.github.io/second-personal-website) and on [GitHub](https://github.com/isabelcosta/second-personal-website);
-- **3rd version:** [Live](http://isabelcosta.github.io/third-personal-website) and on [GitHub](https://github.com/isabelcosta/third-personal-website). This uses this [jekyll/minima](https://github.com/jekyll/minima) template;
-- **4th version:** this website right here :) and on [GitHub](https://github.com/isabelcosta/isabelcosta.github.io) which uses https://hylia.website/ template.
-
-Here's the [issue tracker of this website](https://github.com/isabelcosta/isabelcosta.github.io/issues) where you can see my roadmap of issues planned or submit a bug you find there.
 
 ### Smart Home Android app
 
