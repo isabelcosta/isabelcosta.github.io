@@ -6,7 +6,7 @@ title = 'Isabel Costa'
 [params]
   description = "Isabel's website"
   copyright = "Copyright © 2022 Isabel Costa"
-  dark = "auto"
+  dark = "off"
   highlight = true
 
   [params.socialMedia]
