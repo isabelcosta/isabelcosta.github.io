@@ -1,6 +1,6 @@
 ---
-title: "Work"
-draft: false
+title: 🚧 Some projects
+type: note
 ---
 
 You can see my **open source projects** on [GitHub](https://github.com/isabelcosta) and my **professional experience** on [LinkedIn](https://www.linkedin.com/in/isabelcmdcosta).

@@ -6,7 +6,7 @@ title = 'Isabel Costa'
 [params]
   description = "Isabel's website"
   copyright = "Copyright © 2022 Isabel Costa"
-  dark = "off"
+  dark = "auto"
   highlight = true
 
   [params.socialMedia]
@@ -34,10 +34,4 @@ title = 'Isabel Costa'
     name = "talks"
     title = "talks"
     url = "/talks/"
-    weight = 20
-  [[menu.main]]
-    identifier = "work"
-    name = "work"
-    title = "work"
-    url = "/work/"
     weight = 20
