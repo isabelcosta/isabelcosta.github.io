@@ -13,7 +13,7 @@ I'm currently working as a Software Engineer at Globality in the UK. I'm focused
 
 I volunteer as a mentor for [Black CodHer](https://blackcodher.com/) coding bootcamp and [As Raparigas de Código](https://raparigasdocodigo.pt/).
 
-I’m also an admin at [AnitaB.org Open Source](https://github.com/anitab-org) community and a [GitHub Star](https://stars.github.com/). I help maintain its projects including both backend and android repositories of the Mentorship System. What I’ve been enjoying the most about being a maintainer is to manage the project contributions and, at the same time, help newcomers making their first contribution to open source, while providing a safe environment for them to learn, with the help from the community.
+Previously, I was an admin at [AnitaB.org Open Source](https://github.com/anitab-org) community and a [GitHub Star](https://stars.github.com/). I maintained its projects including both backend and android repositories of the Mentorship System. What I’ve enjoyed the most about being a maintainer is to manage the project contributions and, at the same time, help newcomers making their first contribution to open source, while providing a safe environment for them to learn, with the help from the community.
 
 Occasionally, I write blog [~/posts](/posts/) ✍🏾  and present [~/talks](/talks/) 🎙️, mostly about Open Source. I also do other volunteer [~/work](/work/) 👐🏾 via mostly mentoring.
 
