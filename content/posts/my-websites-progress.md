@@ -12,6 +12,6 @@ These are the different versions of my websites until this current one:
 - **2nd version:** [Live](http://isabelcosta.github.io/second-personal-website) and on [GitHub](https://github.com/isabelcosta/second-personal-website);
 - **3rd version:** [Live](http://isabelcosta.github.io/third-personal-website) and on [GitHub](https://github.com/isabelcosta/third-personal-website). This uses this [jekyll/minima](https://github.com/jekyll/minima) template;
 - **4th version:** [Live](https://isabelcosta.github.io/fourth-personal-website/) and on [GitHub](https://github.com/isabelcosta/fourth-personal-website). It uses [Eleventy](https://www.11ty.dev/) and is a fork from https://hylia.website/ template. website.
-- **5th version:** this website right here :) and on [GitHub](https://github.com/isabelcosta/isabelcosta.github.io).
+- **5th version:** this website right here :) This is using [etch](https://themes.gohugo.io/themes/etch/) theme. I really like how this is focused on the content.
 
 Here's the [issue tracker of this website](https://github.com/isabelcosta/isabelcosta.github.io/issues) where you can see my roadmap of issues planned or submit a bug you find there.
