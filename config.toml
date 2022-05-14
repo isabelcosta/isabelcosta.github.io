@@ -8,6 +8,7 @@ title = 'Isabel Costa'
   copyright = "Copyright © 2022 Isabel Costa"
   dark = "auto"
   highlight = true
+  favicon = "/images/favicon.ico"
 
   [params.socialMedia]
     linkedin = "https://www.linkedin.com/in/isabelcmdcosta"
