@@ -6,6 +6,11 @@ Started this project with:
 
 ## Run
 
+Get submodule code:
+```
+git submodule update --init
+```
+
 Serve
 ```
 hugo server -t etch
