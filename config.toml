@@ -4,7 +4,7 @@ theme = 'etch'
 title = 'Isabel Costa'
 
 [params]
-  description = "Isabel's website"
+  description = "Isabel Costa is a software engineer from Portugal, who really likes Open Source, Freecell, Clash of Clans, and much more."
   copyright = "Copyright © 2022 Isabel Costa"
   dark = "auto"
   highlight = true
