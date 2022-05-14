@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Isabel's website"><link rel="shortcut icon" href=https://isabelcosta.github.io/favicon.ico><link rel=stylesheet href=/css/style.min.css><title>How to Undo the Last Commit</title></head><body><header id=banner><h2><a href=https://isabelcosta.github.io/>Isabel Costa</a></h2><nav><ul><li><a href=/about/ title=about>about</a></li><li><a href=/posts/ title=posts>posts</a></li><li><a href=/talks/ title=talks>talks</a></li></ul></nav></header><main id=content><article><header id=post-header><h1>How to Undo the Last Commit</h1><div><time>February 20, 2018</time></div></header><p><img src=https://cdn-images-1.medium.com/max/2000/1*uc89vQwNgfqctnZg9PMfxA.png alt="Image from Altassian tutorial"></p><p>In this post I will show how I sometimes recover wrong changes (commits) in a coding project, using <a href=https://git-scm.com/>git</a> on the command line.</p><h3 id=why-would-i-want-to-do-this>Why would I want to do this?</h3><p>In my thesis, I’m working on a project that I develop in one environment, and then test in another environment composed of multiple virtual machines. So each important change that I do may have a significant impact on the functionalities of the project. Sometimes, the change I do might not have the result I expected. Then I have to see the changes and analyze the project’s behavior before and after the last commit.</p><h3 id=how-do-you-see-the-last-commit>How do you see the last commit?</h3><p>To test a specific commit, you need the hash. To get the hash you can run <code>git log</code> , then you get this output:</p><pre><code>root@debian:/home/debian/test-project# git log
+commit &lt;last commit hash&gt;
+Author: Isabel Costa &lt;example@email.com&gt;
+Date:   Sun Feb 4 21:57:40 2018 +0000
+
+&lt;commit message&gt;
+
+commit &lt;before last commit hash&gt;
+Author: Isabel Costa &lt;example@email.com&gt;
+Date:   Sun Feb 4 21:42:26 2018 +0000
+
+&lt;commit message&gt;
+
+(...)
+</code></pre><p>You can also run <code>git log --oneline</code> to simplify the output:</p><pre><code>root@debian:/home/debian/test-project# git log --oneline
+&lt;last commit hash&gt; &lt;commit message&gt;
+cdb76bf Added another feature
+d425161 Added one feature
+
+(...)
+</code></pre><p>To test a specific commit (e.g.: <code>&lt;before last commit hash></code>), that you think has the last working version, you can type the following:</p><pre><code>git checkout &lt;commit hash&gt;
+</code></pre><p>This will make the working repository match the state of this exact commit.</p><p>After you do this you’ll get the following output:</p><pre><code>root@debian:/home/debian/test-project# git checkout &lt;commit hash&gt;
+Note: checking out '&lt;commit hash&gt;'.
+
+You are in 'detached HEAD' state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may do so (now or later) by using -b with the checkout command again. Example:
+
+git checkout -b new_branch_name
+
+HEAD is now at &lt;commit hash&gt;... &lt;commit message&gt;
+</code></pre><p>After analyzing the specific commit, if you then decide to stay in that commit state, you can undo the last commit.</p><h3 id=how-to-undo-this-commit>How to undo this commit?</h3><p>If you wish to <a href=https://git-scm.com/docs/git-revert>undo/revert the last commit</a> you can do the following, using the commit hash that you get from the <code>git log</code> command:</p><pre><code>git revert &lt;commit hash&gt;
+</code></pre><p>This command will create a new commit with the “Revert” word in the beginning of the message. After this, if you check your repository status, you’ll notice that you have the HEAD detached at the commit you tested before.</p><pre><code>root@debian:/home/debian/test-project# git status
+HEAD detached at 69d885e
+(...)
+</code></pre><p><a href=https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit>You don’t want to see this message</a>, so to fix this and attach back the HEAD to your working repository, you should checkout the branch you are working on:</p><pre><code>git checkout &lt;current branch&gt;
+</code></pre><p>During the making of this post, I found this tutorial — <a href=https://www.atlassian.com/git/tutorials/undoing-changes>Undoing Commits and Changes</a> — by Atlassian, which describes this issue very well.</p><h3 id=summary>Summary</h3><ul><li><p>If you want to test the previous commit just do <code>git checkout &lt;test commit hash></code> ; then you can test that last working version of your project.</p></li><li><p>If you want to revert the last commit just do <code>git revert &lt;unwanted commit hash></code> ; then you can push this new commit, which undid your previous commit.</p></li><li><p>To fix the detached head do <code>git checkout &lt;current branch></code>.</p></li></ul></article></main><footer id=footer>Copyright © 2022 Isabel Costa</footer></body></html>
