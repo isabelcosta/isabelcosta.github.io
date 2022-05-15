@@ -1,5 +1,5 @@
 ---
-title: Google Summer of Code | Coding Period | Week 10
+title: Google Summer of Code | Week 10
 date: '2018-07-23'
 tags:
   - gsoc

@@ -1,5 +1,5 @@
 ---
-title: Google Summer of Code | Coding Period | Week 11
+title: Google Summer of Code | Week 11
 date: '2018-07-30'
 tags:
   - gsoc

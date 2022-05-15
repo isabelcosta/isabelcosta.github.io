@@ -1,5 +1,5 @@
 ---
-title: Google Summer of Code | Coding Period | Week 2
+title: Google Summer of Code | Week 2
 date: '2018-05-27'
 tags:
   - gsoc
