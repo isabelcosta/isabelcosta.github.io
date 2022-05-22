@@ -2,7 +2,7 @@
 title: "Olá 👋🏾 Home"
 --- 
 
-Olá 👋🏾 I'm Isabel, a **Software Engineer** from Portugal 🇵🇹, currently working at [Globality](https://www.globality.com/) in London, UK 🇬🇧.
+Olá 👋🏾 I'm Isabel, a **Software Engineer** from Portugal 🇵🇹, currently working in London, UK 🇬🇧.
 
 I'm also an **instructor** for [As Raparigas do Código](https://raparigasdocodigo.pt/) organization and a **mentor** for [Black CodHer](https://blackcodher.com/) bootcamp.
 
