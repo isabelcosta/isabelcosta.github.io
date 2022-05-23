@@ -39,7 +39,7 @@ You can find the slides for my talks on [Speaker Deck](https://speakerdeck.com/i
 - 17 Aug • How documentation and open communication leads to better collaboration @ [Ladies of Code (London) - Get Heard! Summer Short Talks](https://www.meetup.com/Ladies-of-Code-UK/events/272472641/) • [Video](https://youtu.be/KGG3PXYwKIE?t=1491) / [Slides](https://speakerdeck.com/isabelcmdcosta/how-documentation-and-open-communication-leads-to-better-collaboration)
 - 16 Aug • Interview about Open Source @ [Coding Black Females Podcast](https://codingblackfemales.com/podcast) • [Audio (podcast)](https://anchor.fm/codingblackfemales/episodes/Isabel-Costa---Contributing-to-Open-Source-eiavh6)
 - 8 Jul • My journey to contributing to Open Source @ [Coding Black Females - Lightning Talks... Take One!](https://www.meetup.com/pt-BR/Coding-Black-Females/events/270991852/) • [Video](https://youtu.be/Wk5DqvY6Eww?t=4540) / [Slides](https://speakerdeck.com/isabelcmdcosta/my-journey-to-contribute-to-open-source)
-- 2 Jun Why, Where and How to contribute to Open Source @ [JNation](https://2020.jnation.pt/) • [Video](https://youtu.be/-37he61LlDo?t=31704) / [Slides](https://speakerdeck.com/isabelcmdcosta/why-where-and-how-to-contribute-to-open-source-at-jnation)
+- 2 Jun • Why, Where and How to contribute to Open Source @ [JNation](https://2020.jnation.pt/) • [Video](https://youtu.be/-37he61LlDo?t=31704) / [Slides](https://speakerdeck.com/isabelcmdcosta/why-where-and-how-to-contribute-to-open-source-at-jnation)
 - 15 May • Intro to Open Source @ [AnitaB.org Community Webinar](https://community.anitab.org/event/intro-to-open-source/)
 
 
