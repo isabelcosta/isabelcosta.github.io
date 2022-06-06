@@ -25,6 +25,12 @@ Open http://localhost:1313/
 
 Original example: https://lukasjoswiak.github.io/etch/
 
+:Warning: if blank pages show up, probably...
+
+```
+git submodule add https://github.com/LukasJoswiak/etch.git themes/etch
+```
+
 ### Setup of GH Pages
 
 Generating and set ssh keys for actions deploy key:
