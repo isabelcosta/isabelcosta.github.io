@@ -7,7 +7,7 @@ tags:
 
 I participated three times in open source programs created by [Google Open Source](https://opensource.google/). I participated in two editions of [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) and one edition of [Google Code-in (GCI)](https://codein.withgoogle.com/). For all of these programs, I was part of [AnitaB.org Open Source](https://github.com/anitab-org) (previously, [Systers Open Source](https://github.com/systers)).
 
-All of these programs aim to help people get introduced to open source in a structured way. GCI was aimed at pre-university students (ages 13-17). GSoC was initially aimed at university students or recent graduates, before opening up in 2022 to all newcomers of open source.
+All of these programs aim to help people get introduced to open source in a structured way. GCI was aimed at pre-university students (ages 13-17). GSoC was initially aimed at university students or recent graduates, [before opening up in 2022 to all newcomers of open source](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html).
 
 My participation in these programs was:
 - Google Summer of Code 2018 Student ([now referred to as GSoC contributor](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html));
