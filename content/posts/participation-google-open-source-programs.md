@@ -1,5 +1,5 @@
 ---
-title: I’ve been a student, mentor, and admin for Google Open Source programs
+title: I’ve been a contributor, mentor, and admin in Google Open Source programs
 date: '2022-06-09'
 tags:
   - open-source
