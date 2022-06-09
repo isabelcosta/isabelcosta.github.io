@@ -1,8 +1,11 @@
 ---
 title: I’ve been a contributor, mentor, and admin in Google Open Source programs
 date: '2022-06-09'
+description: This is my experience as GSoC 2018 student, GCI 2019 mentor and GSoC 2020 admin.
 tags:
   - open-source
+crossposts:
+  devto: https://dev.to/isabelcmdcosta/ive-been-a-contributor-mentor-and-admin-in-google-open-source-programs-1j51
 ---
 
 I participated three times in open source programs created by [Google Open Source](https://opensource.google/). I participated in two editions of [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) and one edition of [Google Code-in (GCI)](https://codein.withgoogle.com/). For all of these programs, I was part of [AnitaB.org Open Source](https://github.com/anitab-org) (previously, [Systers Open Source](https://github.com/systers)).
@@ -54,6 +57,6 @@ I managed a team of 4 members - 1 student and 3 mentors. The project was [Bridge
 
 I must say participating as an admin, was a great experience, much because of the documentation of previous GSoC participation, program materials (e.g.: onboarding slides, past applications content, …), and the great amount of experience that my past GSoC admin had with this program. To have an idea, part of the work admins did was: students and mentors applications management; interacting with aspiring participants who get involved way before the GSoC application started; managing and supporting mentors who would help review the student proposals; onboard selected students and mentors assigned (both involving async and sync communication).
 
-—-
+***
 
 I’m so grateful for getting to experience these programs and different roles! It taught me most of what I know about Open Source which helped me so much in my career and also allowed me to find a way to give back to the tech community.
