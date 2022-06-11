@@ -1,12 +1,12 @@
 ---
-title: How to find open source projects to contribute
+title: How to find Open Source projects to contribute
 date: '2022-06-11'
 featured: true
 tags:
   - open-source
 crossposts:
-  medium: todo
-  devto: todo
+  medium: https://isabelcmdcosta.medium.com/how-to-find-open-source-projects-to-contribute-7d5b0314016c
+  devto: https://dev.to/isabelcmdcosta/how-to-find-open-source-projects-to-contribute-2o1e
 ---
 
 ![detective woman emoji and title of post](/images/find-os-projects-cover.png)
