@@ -9,7 +9,7 @@ draft: false
 
 I'm Isabel, a **Software Engineer** from Portugal 🇵🇹. I enjoy giving back to the community by helping people get started with **Open Source** and in tech through **mentorship**.
 
-I'm currently working as a Software Engineer at Globality in the UK. I'm focused on backend engineering. Previously, I worked as a full-stack and android developer.
+I'm currently working as a Software Engineer at [Deliveroo](https://deliveroo.co.uk/) in the UK. I'm focused on backend engineering. Previously, I worked as a full-stack and android developer.
 
 I volunteer as a mentor for [Black CodHer](https://blackcodher.com/) coding bootcamp and [As Raparigas de Código](https://raparigasdocodigo.pt/).
 
