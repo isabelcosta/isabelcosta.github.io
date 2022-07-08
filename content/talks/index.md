@@ -3,9 +3,7 @@ title: "Talks"
 draft: false
 ---
 
-I enjoy talking about Open Source and, at times, sharing my experience as a developer in Tech.
-
-You can find the slides for my talks on [Speaker Deck](https://speakerdeck.com/isabelcmdcosta).
+I enjoy talking about Open Source and, at times, sharing my experience as a developer in Tech. Find my talks' slides on [Speaker Deck](https://speakerdeck.com/isabelcmdcosta).
 
 ### 2022
 
@@ -17,7 +15,7 @@ You can find the slides for my talks on [Speaker Deck](https://speakerdeck.com/i
 - 1 Nov • Make the most out of your GitHub Profile @ [Devoxx UK](https://www.devoxx.co.uk/) • [Video](https://www.youtube.com/watch?v=XuOsSPKCYMI)
 - 21 Oct • The Hacktoberfest maintainer wishlist @ [Upstream - hacktoberfest webinar](https://upstream.live/webinar/hacktoberfest) • [Video](https://www.youtube.com/watch?v=_iFhXDJvZHM)
 - 6 Oct • Departments of Informatics and Engineering: Career Options (panel) @ [King's College London](https://www.kcl.ac.uk/)
-- 3 Sep • Empowerment Day: Life as a Developer (panel) @ [Black CodHer Bootcamp](https://blackcodher.com/) • [Video](https://www.youtube.com/watch?v=UBml1Y0_fDs) / [Audio (podcast)](https://anchor.fm/codingblackfemales/episodes/Life-as-a-Developer-e184e6p)
+- 3 Sep • Empowerment Day: Life as a Developer (panel) @ [Black CodHer Bootcamp](https://blackcodher.com/) • [Video](https://www.youtube.com/watch?v=UBml1Y0_fDs) / [Audio](https://anchor.fm/codingblackfemales/episodes/Life-as-a-Developer-e184e6p)
 - 27 Jul • How to Get into Open Source @ [Women Who Code London](https://www.meetup.com/Women-Who-Code-London) • [Slides](https://speakerdeck.com/isabelcmdcosta/how-to-get-into-open-source) / [Video](https://www.youtube.com/watch?v=0buL1lnqUz0)
 - 8 Jul • Demystifying Tech (panel) @ [Academy](https://academy.tech/)
 - 16 Jun • Como contribuir para Open Source @ [Geek Girls Portugal](http://geekgirlsportugal.pt/) •  [Slides](https://speakerdeck.com/isabelcmdcosta/como-contribuir-para-open-source-at-geekgirlsportugal) / 🇵🇹
@@ -36,9 +34,9 @@ You can find the slides for my talks on [Speaker Deck](https://speakerdeck.com/i
 - 17 Oct • Contribuir para Open Source como colaborador e maintainer @ [Devfest Portugal](https://devfest.gdgportugal.xyz/) • [Video](https://youtu.be/-EFVDjDdeXw?t=6766) / [Slides](https://speakerdeck.com/isabelcmdcosta/contribuir-para-open-source-como-colaborador-e-maintainer) / 🇵🇹
 - 15 Oct • Contributing to open source as a contributor and a maintainer @ [vJUG](https://www.virtualjug.com) (Virtual Java User Group) • [Video](https://www.youtube.com/watch?v=FTL7kahHHBk) / [Slides](https://speakerdeck.com/isabelcmdcosta/contributing-to-open-source-as-a-contributor-and-maintainer)
 - 8 Oct • À Conversa Com... Isabel Costa @ [IEEE IST Student Branch](https://www.facebook.com/ieeeist/) • [Video](https://www.facebook.com/212991678724583/videos/367308757723629/?__so__=channel_tab&__rv__=all_videos_card) / 🇵🇹
-- 17 Aug • How documentation and open communication leads to better collaboration @ [Ladies of Code (London) - Get Heard! Summer Short Talks](https://www.meetup.com/Ladies-of-Code-UK/events/272472641/) • [Video](https://youtu.be/KGG3PXYwKIE?t=1491) / [Slides](https://speakerdeck.com/isabelcmdcosta/how-documentation-and-open-communication-leads-to-better-collaboration)
-- 16 Aug • Interview about Open Source @ [Coding Black Females Podcast](https://codingblackfemales.com/podcast) • [Audio (podcast)](https://anchor.fm/codingblackfemales/episodes/Isabel-Costa---Contributing-to-Open-Source-eiavh6)
-- 8 Jul • My journey to contributing to Open Source @ [Coding Black Females - Lightning Talks... Take One!](https://www.meetup.com/pt-BR/Coding-Black-Females/events/270991852/) • [Video](https://youtu.be/Wk5DqvY6Eww?t=4540) / [Slides](https://speakerdeck.com/isabelcmdcosta/my-journey-to-contribute-to-open-source)
+- 17 Aug • How documentation and open communication leads to better collaboration @ [Ladies of Code London - Get Heard! Summer Short Talks](https://www.meetup.com/Ladies-of-Code-UK/events/272472641/) • [Video](https://youtu.be/KGG3PXYwKIE?t=1491) / [Slides](https://speakerdeck.com/isabelcmdcosta/how-documentation-and-open-communication-leads-to-better-collaboration)
+- 16 Aug • Interview about Open Source @ [Coding Black Females Podcast](https://codingblackfemales.com/podcast) • [Audio](https://anchor.fm/codingblackfemales/episodes/Isabel-Costa---Contributing-to-Open-Source-eiavh6)
+- 8 Jul • My journey to contributing to Open Source @ [Coding Black Females - Lightning Talks... Take One!](https://www.meetup.com/Coding-Black-Females/events/270991852/) • [Video](https://youtu.be/Wk5DqvY6Eww?t=4540) / [Slides](https://speakerdeck.com/isabelcmdcosta/my-journey-to-contribute-to-open-source)
 - 2 Jun • Why, Where and How to contribute to Open Source @ [JNation](https://2020.jnation.pt/) • [Video](https://youtu.be/-37he61LlDo?t=31704) / [Slides](https://speakerdeck.com/isabelcmdcosta/why-where-and-how-to-contribute-to-open-source-at-jnation)
 - 15 May • Intro to Open Source @ [AnitaB.org Community Webinar](https://community.anitab.org/event/intro-to-open-source/)
 
