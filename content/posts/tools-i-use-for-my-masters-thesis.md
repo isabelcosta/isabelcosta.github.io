@@ -1,7 +1,6 @@
 ---
 title: Tools I use for my Master’s thesis
 date: '2018-01-16'
-featured: true
 tags:
     - misc
 crossposts:

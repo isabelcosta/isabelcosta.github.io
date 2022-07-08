@@ -1,6 +1,7 @@
 ---
 title: I’ve been a contributor, mentor, and admin in Google Open Source programs
 date: '2022-06-09'
+featured: true
 description: This is my experience as GSoC 2018 student, GCI 2019 mentor and GSoC 2020 admin.
 tags:
   - open-source

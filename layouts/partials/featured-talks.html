@@ -1,0 +1,7 @@
+<h3>featured talks</h3>
+<br>
+<ul id="posts">
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
