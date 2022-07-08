@@ -50,7 +50,7 @@ These IP addresses will be important, because they will appear in the examples o
 
 To install Tinyproxy, you have to type the following command into the forward and reverse proxy machines’s terminal:
 
-```
+```bash
 apt-get install tinyproxy
 ```
 
@@ -153,23 +153,23 @@ ReverseBaseURL "http://10.0.2.36:8888/"
 
 To run tinyproxy with a specific configuration just do the following:
 
-```
+```bash
 tinyproxy -c <configuration-file>
 ```
 
-E.g.: tinyproxy -c forwardproxy.conf
+E.g.: `tinyproxy -c forwardproxy.conf`
 
 ## Testing the system
 
 First make sure that the server is running accordingly and you can access the server with the following command, from any of the machines, since all of them are in the same network. You can test this using [curl](https://curl.haxx.se/) command line tool or on a browser:
 
-```
+```bash
 curl http://10.0.2.34:80/ 
 ```
 
 Now to test the whole system, if you want to use curl you can type this on the client machine console:
 
-```
+```bash
 curl -v --proxy http://10.0.2.35:8888 http://10.0.2.36:8888/
 ```
 
@@ -211,7 +211,7 @@ In this [Wireshark](https://www.wireshark.org/) capture you can see the traffic 
 
 To check log file and the forward and reverse proxies, you can type the following on either the machines:
 
-```
+```bash
 cat /var/log/tinyproxy/tinyproxy.log
 ```
 
