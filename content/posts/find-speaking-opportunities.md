@@ -1,6 +1,7 @@
 ---
 title: How I find Public Speaking Opportunities
 date: '2021-06-10'
+featured: true
 updated_at: '2021-07-05'
 tags:
   - misc
