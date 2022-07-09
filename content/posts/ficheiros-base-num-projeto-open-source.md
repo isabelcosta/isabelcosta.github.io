@@ -1,7 +1,6 @@
 ---
 title: Ficheiros base num projeto Open Source
 date: '2020-11-07'
-featured: true
 tags:
   - portugues
   - open-source

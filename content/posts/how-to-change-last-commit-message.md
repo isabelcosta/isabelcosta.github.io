@@ -1,7 +1,6 @@
 ---
 title: How to change last commit message
 date: '2020-11-21'
-featured: true
 description: Often I have to change commit messages from my last commit, this is how I do it.
 tags:
   - git

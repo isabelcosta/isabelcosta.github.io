@@ -1,0 +1,12 @@
+<h3>► posts</h3>
+<br>
+<ul id="posts">
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ if .Params.featured }}
+        {{ .Render "li" }}
+        <!-- {{- partial "li_note.html" . -}} -->
+    {{ end }}
+{{- end }}
+</ul>
+
+<p>Check out <a href="/posts">all posts</a></p>
