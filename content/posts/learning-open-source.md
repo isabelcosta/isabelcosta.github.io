@@ -1,5 +1,5 @@
 ---
-title: 🚧 Learning about Open Source ecosystem
+title: 🤝🏾 Learning about Open Source ecosystem
 type: note
 ---
 
