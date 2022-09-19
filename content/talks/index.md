@@ -7,6 +7,7 @@ I enjoy talking about Open Source and, at times, sharing my experience as a deve
 
 ### 2022
 
+- 14 Sep • Demystifying contributing to Open Source @ [Front-end Foxes Day 2022](https://cfe.dev/events/frontend-foxes-day-2022/) • [Video](https://www.youtube.com/watch?v=JWD18naXSyQ&list=PLZDPKYkCEQk0Dx4iKOYzG9NN5eZ3HI2au&index=5)
 - 15 Mar • Tertúlias "Let's Talk" (panel) @ [NEAIST - Núcleo de Estudantes Africanos do Instituto Superior Técnico](https://neaist.tecnico.ulisboa.pt/) • 🇵🇹
 - 18 Feb • Empowerment Day: Life as a Developer (panel) @ [Black CodHer Bootcamp](https://blackcodher.com/)
 
