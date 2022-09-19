@@ -1769,23 +1769,7 @@ HEAD detached at 69d885e
 &lt;li>&lt;a href="https://www.flickr.com/photos/wocintechchat">Women of color in tech chat&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://createherstock.com/">CreateHER Stock&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.blackillustrations.com/">Illustration of Black people&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>🚧 Learning about Open Source ecosystem</title><link>https://isabelcosta.github.io/posts/learning-open-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabelcosta.github.io/posts/learning-open-source/</guid><description>&lt;p>This is a list of interesting resources to learn about the Open Source ecosystem/landscape. Aside from learning how to contribute, there is a lot about the ecosystem that can be interesting to know, such as how maintainers maintain their projects, how maintainers get paid, how projects can get supported, how corporations can influence the ecosystem, etc.&lt;/p>
-&lt;p>I&amp;rsquo;ll update as I think of more resources.&lt;/p>
-&lt;h2 id="blogs">Blogs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://opensource.com/">opensource.com&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://opensource.guide/">opensource.guide&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="videos--channels">Videos / Channels&lt;/h2>
-&lt;ul>
-&lt;li>Open Sauced on Youtube: &lt;a href="https://www.youtube.com/c/OpenSauced">https://www.youtube.com/c/OpenSauced&lt;/a> - It has some great discussions about Open Source ecosystem.&lt;/li>
-&lt;/ul>
-&lt;h2 id="podcasts">Podcasts&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://maintainersanonymous.com/">Maintainers Anonymous&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.opensourcestories.org/">Open Source Stories&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;em>Updated on 19 September 2022&lt;/em>&lt;/p></description></item><item><title>🚧 Some of my projects</title><link>https://isabelcosta.github.io/posts/some-projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabelcosta.github.io/posts/some-projects/</guid><description>&lt;p>You can see my &lt;strong>open source projects&lt;/strong> on &lt;a href="https://github.com/isabelcosta">GitHub&lt;/a> and my &lt;strong>professional experience&lt;/strong> on &lt;a href="https://www.linkedin.com/in/isabelcmdcosta">LinkedIn&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>🚧 Some of my projects</title><link>https://isabelcosta.github.io/posts/some-projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabelcosta.github.io/posts/some-projects/</guid><description>&lt;p>You can see my &lt;strong>open source projects&lt;/strong> on &lt;a href="https://github.com/isabelcosta">GitHub&lt;/a> and my &lt;strong>professional experience&lt;/strong> on &lt;a href="https://www.linkedin.com/in/isabelcmdcosta">LinkedIn&lt;/a>.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="#mentorship-system">Mentorship System&lt;/a>&lt;/li>
 &lt;li>&lt;a href="#premium---private-reactive-multipath-communication-middleware-msc-thesis">PREMIUM (MSc Thesis)&lt;/a>&lt;/li>
@@ -1823,4 +1807,20 @@ I used the modified versions of these prototypes and implemented new modules to 
 &lt;li>&lt;strong>5th version:&lt;/strong> this website right here :) This is using &lt;a href="https://themes.gohugo.io/themes/etch/">etch&lt;/a> theme. I really like how this is focused on the content.&lt;/li>
 &lt;/ul>
 &lt;p>Here&amp;rsquo;s the &lt;a href="https://github.com/isabelcosta/isabelcosta.github.io/issues">issue tracker of this website&lt;/a> where you can see my roadmap of issues planned or submit a bug you find there.&lt;/p>
-&lt;p>This website is deployed to &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a> via &lt;a href="https://docs.github.com/en/actions">GitHub Actions&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;p>This website is deployed to &lt;a href="https://pages.github.com/">GitHub Pages&lt;/a> via &lt;a href="https://docs.github.com/en/actions">GitHub Actions&lt;/a>.&lt;/p></description></item><item><title>🤝🏾 Learning about Open Source ecosystem</title><link>https://isabelcosta.github.io/posts/learning-open-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://isabelcosta.github.io/posts/learning-open-source/</guid><description>&lt;p>This is a list of interesting resources to learn about the Open Source ecosystem/landscape. Aside from learning how to contribute, there is a lot about the ecosystem that can be interesting to know, such as how maintainers maintain their projects, how maintainers get paid, how projects can get supported, how corporations can influence the ecosystem, etc.&lt;/p>
+&lt;p>I&amp;rsquo;ll update as I think of more resources.&lt;/p>
+&lt;h2 id="blogs">Blogs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://opensource.com/">opensource.com&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://opensource.guide/">opensource.guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="videos--channels">Videos / Channels&lt;/h2>
+&lt;ul>
+&lt;li>Open Sauced on Youtube: &lt;a href="https://www.youtube.com/c/OpenSauced">https://www.youtube.com/c/OpenSauced&lt;/a> - It has some great discussions about Open Source ecosystem.&lt;/li>
+&lt;/ul>
+&lt;h2 id="podcasts">Podcasts&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://maintainersanonymous.com/">Maintainers Anonymous&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.opensourcestories.org/">Open Source Stories&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Updated on 19 September 2022&lt;/em>&lt;/p></description></item></channel></rss>
