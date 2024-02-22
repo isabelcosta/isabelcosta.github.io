@@ -8,7 +8,7 @@ tags:
 I believe in the power of community and mentorship so this is a rough list of some volunteering I have been doing throughout my career that aligns with my values.
 
 - **Apr, 2021 - Now:** Instructor and Mentor at [As Raparigas de Codigo](https://raparigasdocodigo.pt/);
-- **Aug, 2020 - Now:** Mentor at [Black CodHer](https://blackcodher.com/) bootcamp;
+- **Aug, 2020 - Jul, 2023:** Mentor at [Black CodHer](https://blackcodher.com/) bootcamp;
 - **Feb, 2020 - Mar, 2022:** OS Admin at [AnitaB.org Open Source](https://github.com/anitab-org);
 - **Mar, 2018 - Mar, 2022:** OS Contributor and Maintainer at [AnitaB.org Open Source](https://github.com/anitab-org);
 - **Sep, 2021:** Speaker at Early Career lounge at [Grace Hopper Celebration (GHC)](https://ghc.anitab.org);
