@@ -3,8 +3,6 @@ title: "About"
 draft: false
 ---
 
-![Isabel in Germany all covered from cold](/images/me-out-in-the-cold.jpg)
-
 ### Olá 👋🏾
 
 I'm Isabel, a **Software Engineer** from Portugal 🇵🇹. I enjoy giving back to the community by helping people get started with **Open Source** and in tech through **mentorship**.
