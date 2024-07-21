@@ -5,7 +5,7 @@ title = 'Isabel Costa'
 
 [params]
   description = "Isabel Costa is a software engineer from Portugal, who really likes Open Source, Freecell, Clash of Clans, and much more."
-  copyright = "Copyright © Isabel Costa"
+  copyright = "Copyright © 2024 Isabel Costa"
   dark = "auto"
   highlight = true
   favicon = "/images/favicon.ico"
